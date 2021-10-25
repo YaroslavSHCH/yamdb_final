@@ -1,8 +1,8 @@
 from django.db.models import Avg
 from django.shortcuts import get_object_or_404
 from rest_framework import filters, viewsets
-from users.permissions import IsAdmin, IsAllUsersOrReadOnly, ReadOnly
 
+from users.permissions import IsAdmin, IsAllUsersOrReadOnly, ReadOnly
 from .filters import TitleFilter
 from .models import Category, Genre, Review, Title
 from .serializers import (CategorySerializer, CommentSerializer,
