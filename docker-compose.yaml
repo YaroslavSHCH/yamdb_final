@@ -11,7 +11,7 @@ services:
       - "5432:5432"
 
   web:
-    build: .
+    image: yashch/praktikum:api_yamdb_web
     restart: always
     command: >
       bash -c "python manage.py makemigrations
