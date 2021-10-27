@@ -44,7 +44,7 @@ Superuser created successfully.
 ```
 
 # Админка
-- Открываем админку <https://84.201.180.142/admin>:
+- Открываем админку <http://84.201.154.67/admin>:
 ![django-form-auth](git_image/django_login.png)
 
 - Вводим данные суперпользователя и авторизуемся:
